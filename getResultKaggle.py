@@ -7,8 +7,8 @@ browser.get('https://www.kaggle.com/account/login')
 username = browser.find_element_by_id("username-input-text")
 password = browser.find_element_by_id("password-input-text")
 
-username.send_keys("fawkeshk")
-password.send_keys("hdtan888992")
+username.send_keys("")
+password.send_keys("")
 browser.find_element_by_id("submit-sign-in-button").click()
 
 browser.get("https://www.kaggle.com/c/pkdd-15-predict-taxi-service-trajectory-i/submissions?sortBy=date&group=all&page=1")
